@@ -13,6 +13,8 @@
 		A64CFEF61CCB5C4200FECEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64CFEF41CCB5C4200FECEF6 /* Main.storyboard */; };
 		A64CFEF81CCB5C4200FECEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64CFEF71CCB5C4200FECEF6 /* Assets.xcassets */; };
 		A64CFEFB1CCB5C4200FECEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64CFEF91CCB5C4200FECEF6 /* LaunchScreen.storyboard */; };
+		A6EBE84F1CE0F6E400BE4FFA /* DaiLiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EBE84E1CE0F6E400BE4FFA /* DaiLiViewController.m */; };
+		A6EBE8521CE0F6F400BE4FFA /* WeiTuoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EBE8511CE0F6F400BE4FFA /* WeiTuoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A64CFEF71CCB5C4200FECEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64CFEFA1CCB5C4200FECEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64CFEFC1CCB5C4200FECEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EBE84D1CE0F6E400BE4FFA /* DaiLiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiLiViewController.h; sourceTree = "<group>"; };
+		A6EBE84E1CE0F6E400BE4FFA /* DaiLiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiLiViewController.m; sourceTree = "<group>"; };
+		A6EBE8501CE0F6F400BE4FFA /* WeiTuoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiTuoViewController.h; sourceTree = "<group>"; };
+		A6EBE8511CE0F6F400BE4FFA /* WeiTuoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiTuoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				A64CFEF91CCB5C4200FECEF6 /* LaunchScreen.storyboard */,
 				A64CFEFC1CCB5C4200FECEF6 /* Info.plist */,
 				A64CFEEB1CCB5C4200FECEF6 /* Supporting Files */,
+				A6EBE84D1CE0F6E400BE4FFA /* DaiLiViewController.h */,
+				A6EBE84E1CE0F6E400BE4FFA /* DaiLiViewController.m */,
+				A6EBE8501CE0F6F400BE4FFA /* WeiTuoViewController.h */,
+				A6EBE8511CE0F6F400BE4FFA /* WeiTuoViewController.m */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -151,7 +161,9 @@
 			files = (
 				A64CFEF31CCB5C4200FECEF6 /* ViewController.m in Sources */,
 				A64CFEF01CCB5C4200FECEF6 /* AppDelegate.m in Sources */,
+				A6EBE84F1CE0F6E400BE4FFA /* DaiLiViewController.m in Sources */,
 				A64CFEED1CCB5C4200FECEF6 /* main.m in Sources */,
+				A6EBE8521CE0F6F400BE4FFA /* WeiTuoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				A64CFF011CCB5C4200FECEF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
